@@ -143,7 +143,7 @@ resource "aws_nat_gateway" "nat_gw_2" {
   }
 }
 
-# Private Route Table 1 (AZ us-east-1a)
+# Private Route Table 1 (AZ1 us-east-1a)
 resource "aws_route_table" "private_rt_1" {
   vpc_id = aws_vpc.main.id
   route {
